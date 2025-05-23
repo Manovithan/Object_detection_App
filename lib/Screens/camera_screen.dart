@@ -133,11 +133,11 @@ class _CameraScreenState extends State<CameraScreen> {
     });
   }
 
-  void _toggleSheet() {
-    setState(() {
-      _isSheetExpanded = !_isSheetExpanded;
-    });
-  }
+  // void _toggleSheet() {
+  //   setState(() {
+  //     _isSheetExpanded = !_isSheetExpanded;
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
